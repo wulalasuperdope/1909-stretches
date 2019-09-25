@@ -1,5 +1,12 @@
 const { isEqual } = require('./isEqual');
 
+/*
+ **  These are tests! A test suite is wrapped in a `describe` block.
+ **  Each individual test is wrapped in a `test` block.
+ **  A test block can have many `expect` statements. This is where your
+ **  code is determined to pass or fail the test.
+ */
+
 describe('isEqual compares 2 objects to see if they are equal', () => {
   test('it returns true for 2 empty objects', () => {
     expect(isEqual({}, {})).toBe(true);
