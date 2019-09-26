@@ -32,23 +32,26 @@ This means we've added another reference to a remote repository (in this case, R
 
 Instructors will add a new problem each evening before class and you will need to `pull` down the new material to your computer to get access to the problem. Run `git pull upstream master` in the folder of your forked repository.
 
-```
-$ git pull upstream master
-```
 
-This will take whatever has been committed on the upstream remote (in this case, Russell's repo) and merge it into your repo. 
-
-Be sure that Jest CLI is installed
+We'll need to install Jest CLI to help us run tests from the command line.
 ```
 $ npm install -g jest-cli
 ```
 
-Also run `npm install`
+Also run `npm install`. We'll talk about what this does soon!
 ```
 $ npm install
 ```
 
 ## Solving the Problems
+
+At the beginning of each class navigate to the 1909-stretches repo on your machine and run `git pull upstream master` :
+```
+$ git pull upstream master
+```
+
+This will add the new stretch from the official original repo (the `upstream`) to your fork. 
+
 
 Go to the `questions` directory access the latest question. If the problem you are working on is called `isEqual` then you can run the tests for this problem by running:
 ```
