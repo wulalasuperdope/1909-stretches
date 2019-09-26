@@ -1,4 +1,4 @@
-const { largestDivisible } = require('./largestDivisble');
+const { largestDivisible } = require('./largestDivisible');
 
 describe('largestDivisible', () => {
   test('should return null if there is no number that is divisible', () => {
