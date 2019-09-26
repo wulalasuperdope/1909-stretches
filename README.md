@@ -1,7 +1,7 @@
 # Stretches
 
 ## Setup
-The goal of these exercises is to practice JS fundamentals buy writing functions and tests, and to acquaint you with the Node.js and Github environments. 
+The goal of these exercises is to practice JS fundamentals by writing functions and tests, and to acquaint you with the Node.js and Github environments. 
 
 Fork this repo, then clone **your** fork to your machine. Make sure this git repo isn't inside another git repo!
 
