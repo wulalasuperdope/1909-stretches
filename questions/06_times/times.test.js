@@ -29,4 +29,8 @@ describe('Times', () => {
     expect(() => times('x')).toThrow('Numbers only!');
     expect(() => times([])).toThrow('Numbers only!');
   });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> c7fd7c58076bf1f09e84686303647d8e6c0be632
