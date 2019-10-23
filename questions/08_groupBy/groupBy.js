@@ -9,6 +9,8 @@ function groupBy(arr, attr) {
         newObj[objProp[i]] = arr[i]
     }
     return newObj;
+
+    //test if attr is function. if not, set current attr as key, if yes, set its attr as key
 }
 
 module.exports = { groupBy };
