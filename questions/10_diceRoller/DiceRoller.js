@@ -4,21 +4,20 @@
 
 class DiceRoller {
   //YOUR CODE
-  constructor(numOfSides, totalDice){
-    if(numOfSides < 1 || totalDice < 1){
-      throw 'err'
-    }else{
-      sides = numOfSides
-      numDice = totalDice
+  constructor(sides, numDice){
+    if(sides < 1 || numDice < 1){
+      throw new Error
     }
+    this.sides = sides
+    this.numDice = numDice
     this.history = []
   }
 
   roll(){
-    let range = [min, max];
-    let min = this.numDice;
-    let max = this.numDice * this.sides
-    return range
+    const allRolls = []
+    for(cost _ of Array.this.numDice){
+
+    }
   }
 
   
